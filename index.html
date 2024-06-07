@@ -1,0 +1,587 @@
+<html class="" data-theme="Light">
+	<head class="">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>
+			棚子咯 </title>
+		<link rel="icon" href="https://zy.wpzllq.cn/logo.png">
+		<meta name="description" content="一起学习与分享，一起进步！">
+		<meta name="keywords" content="棚子YO,,棚子主页,引导页">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<!-- 二改 -->
+    <!-- jQuery -->
+    <script src="css/jquery.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" type="text/css"
+        href="css/bootstrap.min.css">
+
+		<!--  -->
+    <link rel="stylesheet" type="text/css" href="css/cursor.css">
+ 
+    <link rel="stylesheet" href="css/iziToast.min.css">
+    <script type="text/javascript"
+        src="css/iziToast.min.js">
+    </script>
+  
+    
+
+      <script type="text/javascript" src="css/main.js"></script>
+      <script type="text/javascript" src="css/time.js"></script>    
+      <script type="text/javascript"
+          src="css/bootstrap.min.css">
+      </script>
+		<style>
+			html {
+				--id: 3;
+				--name: 主题4;
+				--main_bg_color: linear-gradient(50deg, #a2d1ff, #ffffff);
+				--main_text_color: #000000;
+				--gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%);
+				--purple_text_color: #747bff;
+				--text_bg_color: rgb(196 217 251);
+				--item_bg_color: rgba(249, 250, 251, 0.5);
+				--item_hover_color: rgba(244, 245, 246, 0.8);
+				--item_left_title_color: #000000;
+				--item_left_text_color: #494949;
+				--footer_text_color: #222222;
+				--left_tag_item: linear-gradient(50deg, #a2d1ff, #ffffff);
+				--card_filter: 0px;
+				--back_filter: 0px;
+				--back_filter_color: #00000000;
+				--fill: #000000;
+			}
+		</style>
+		<style>
+			.pengzi-main {
+				max-width: 1100px;
+			}
+		</style>
+		<style type="text/css">
+			#_copy {
+				align-items: center;
+				background: #4494d5;
+				border-radius: 3px;
+				color: #fff;
+				cursor: pointer;
+				display: flex;
+				font-size: 13px;
+				height: 30px;
+				justify-content: center;
+				position: absolute;
+				width: 60px;
+				z-index: 1000
+			}
+
+			#select-tooltip,
+			#sfModal,
+			.modal-backdrop,
+			div[id^=reader-helper] {
+				display: none !important
+			}
+
+			.modal-open {
+				overflow: auto !important
+			}
+
+			._sf_adjust_body {
+				padding-right: 0 !important
+			}
+
+			.enable_copy_btns_div {
+				position: fixed;
+				width: 154px;
+				left: 10px;
+				top: 45%;
+				background: #e7f1ff;
+				border: 2px solid #4595d5;
+				font-weight: 600;
+				border-radius: 2px;
+				font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+				z-index: 5000
+			}
+
+			.enable_copy_btns_logo {
+				width: 100%;
+				background: #4595d5;
+				text-align: center;
+				font-size: 12px;
+				color: #e7f1ff;
+				line-height: 30px;
+				height: 30px
+			}
+
+			.enable_copy_btns_btn {
+				display: block;
+				width: 128px;
+				height: 28px;
+				background: #7f5711;
+				border-radius: 4px;
+				color: #fff;
+				font-size: 12px;
+				border: 0;
+				outline: 0;
+				margin: 8px auto;
+				font-weight: 700;
+				cursor: pointer;
+				opacity: .9
+			}
+
+			.enable_copy_btns_btn:hover {
+				opacity: .8
+			}
+
+			.enable_copy_btns_btn:active {
+				opacity: 1
+			}
+		</style>
+		<script src="chrome-extension://ekkkldemlhnacnfegdihallelglbnhnl/js/page_finish.js"></script>
+		<script src="https://speed.ilink-tk.com/spd/tongji?start=1717685093889" type="text/javascript" async=""
+			charset="utf-8"></script>
+	</head>
+	<body inmaintabuse="1">
+		<div id="fps" style="z-index: 10000; position: fixed; left: 0px;"></div>
+		<div id="pengzi-loading" style="opacity: 0;">
+			<div id="pengzi-loading-center">
+			</div>
+		</div>
+		<div class="pengzi-filter"></div>
+		<div class="pengzi-main">
+			<div class="pengzi-left">
+				<div class="logo" style="background-image: url(https://zy.wpzllq.cn/logo.png);">
+					<img style="position: absolute;top:-15%;left:-10%;width: 120%; aspect-ratio: 1/1;"
+						src="1.webp">
+				</div>
+				<div class="left-div left-des">
+					<div class="left-des-item"><svg t="1705773709627" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="1478">
+							<path
+								d="M512 249.976471c-99.388235 0-180.705882 81.317647-180.705882 180.705882s81.317647 180.705882 180.705882 180.705882 180.705882-81.317647 180.705882-180.705882-81.317647-180.705882-180.705882-180.705882z m0 301.17647c-66.258824 0-120.470588-54.211765-120.470588-120.470588s54.211765-120.470588 120.470588-120.470588 120.470588 54.211765 120.470588 120.470588-54.211765 120.470588-120.470588 120.470588z"
+								p-id="1479"></path>
+							<path
+								d="M512 39.152941c-216.847059 0-391.529412 174.682353-391.529412 391.529412 0 349.364706 391.529412 572.235294 391.529412 572.235294s391.529412-222.870588 391.529412-572.235294c0-216.847059-174.682353-391.529412-391.529412-391.529412z m0 891.482353C424.658824 873.411765 180.705882 686.682353 180.705882 430.682353c0-183.717647 147.576471-331.294118 331.294118-331.294118s331.294118 147.576471 331.294118 331.294118c0 256-243.952941 442.729412-331.294118 499.952941z"
+								p-id="1480"></path>
+						</svg>China-Guangxi
+					</div>
+
+
+					<div class="left-des-item"><svg t="1705773906032" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="2474">
+							<path
+				d="M995.555556 1024v-142.222222a170.666667 170.666667 0 0 0-170.666667-170.666667H369.777778a170.666667 170.666667 0 0 0-170.666667 170.666667v142.222222h796.444445z"
+				fill="#FA743E" p-id="28507"></path>
+			<path
+				d="M473.315556 714.126222c0 25.429333 67.128889 56.689778 124.017777 56.689778 56.888889 0 123.989333-31.260444 123.989334-56.661333V605.582222h-248.035556v108.544z"
+				fill="#FFDC5D" p-id="28508"></path>
+			<path
+				d="M473.088 657.664c34.588444 39.082667 77.482667 49.664 124.131556 49.664 46.648889 0 89.486222-10.609778 124.103111-49.664V558.364444h-248.263111v99.299556h0.028444z"
+				fill="#F9CA55" p-id="28509"></path>
+			<path
+				d="M703.459556 15.104c-54.755556-17.720889-183.608889-12.885333-215.836445 28.984889-83.740444 1.621333-181.987556 77.312-194.872889 177.152-12.743111 98.844444 15.672889 144.725333 25.770667 219.050667 11.463111 84.195556 58.794667 111.132444 96.625778 122.396444 54.442667 71.936 112.327111 68.864 209.521777 68.864 189.781333 0 280.177778-126.976 288.170667-342.670222 4.835556-130.417778-71.708444-229.233778-209.379555-273.777778z"
+				fill="#FFAC33" p-id="28510"></path>
+			<path
+				d="M812.003556 298.126222c-18.375111-25.429333-41.870222-45.909333-93.411556-53.134222 19.342222 8.846222 37.831111 39.452444 40.277333 56.376889 2.417778 16.924444 4.835556 30.606222-10.467555 13.681778-61.297778-67.754667-128.056889-41.073778-194.190222-82.460445-46.193778-28.899556-60.302222-60.899556-60.302223-60.899555s-5.603556 42.666667-75.662222 86.158222c-20.309333 12.600889-44.544 40.675556-57.969778 82.147555-9.671111 29.809778-6.656 56.376889-6.656 101.774223 0 132.551111 109.226667 243.996444 243.996445 243.996444 134.741333 0 243.996444-112.440889 243.996444-243.996444-0.056889-82.432-8.675556-114.659556-29.610666-143.644445z"
+				fill="#FFDC5D" p-id="28511"></path>
+			<path d="M624.64 509.553778h-54.186667a13.568 13.568 0 1 1 0-27.136h54.215111a13.568 13.568 0 1 1 0 27.136z"
+				fill="#C1694F" p-id="28512"></path>
+			<path
+				d="M489.102222 414.663111a27.107556 27.107556 0 0 1-27.107555-27.107555v-27.107556a27.107556 27.107556 0 0 1 54.215111 0v27.107556a27.079111 27.079111 0 0 1-27.107556 27.107555z m216.917334 0a27.107556 27.107556 0 0 1-27.107556-27.107555v-27.107556a27.107556 27.107556 0 0 1 54.215111 0v27.107556a27.107556 27.107556 0 0 1-27.107555 27.107555z"
+				fill="#662113" p-id="28513"></path>
+			<path
+				d="M601.144889 622.762667c-78.336 0-102.4-20.053333-106.410667-24.120889a18.631111 18.631111 0 0 1 25.656889-27.022222c1.479111 1.052444 20.48 13.852444 80.753778 13.852444 62.577778 0 80.668444-13.795556 80.839111-13.937778a18.147556 18.147556 0 0 1 25.969778 0.426667 19.029333 19.029333 0 0 1-0.398222 26.680889c-4.039111 4.067556-28.074667 24.120889-106.410667 24.120889z"
+				fill="#C1694F" p-id="28514"></path>
+			<path
+				d="M938.666667 995.555556a28.444444 28.444444 0 0 1-28.444445 28.444444H625.777778a28.444444 28.444444 0 1 1 0-56.888889h284.444444a28.444444 28.444444 0 0 1 28.444445 28.444445z"
+				fill="#E1E8ED" p-id="28515"></path>
+			<path
+				d="M575.715556 625.777778H106.951111c-43.377778 0-98.958222 21.930667-70.513778 100.437333l87.381334 241.066667C123.847111 967.281778 135.111111 1024 199.111111 1024h568.888889l-113.777778-319.715556c-12.458667-37.603556-35.128889-78.506667-78.506666-78.506666z"
+				fill="#E1E8ED" p-id="28516"></path>
+			<path
+				d="M547.271111 625.777778H78.506667C35.100444 625.777778-20.48 647.708444 7.964444 726.215111l87.381334 241.066667C95.402667 967.281778 106.666667 1024 170.666667 1024h568.888889l-113.777778-319.715556c-12.458667-37.603556-35.128889-78.506667-78.506667-78.506666z"
+				fill="#99AAB5" p-id="28517"></path>
+			<path
+				d="M398.762667 832.938667c14.904889 44.714667 2.816 89.031111-26.993778 98.958222-29.809778 9.955556-66.048-18.232889-80.952889-62.947556s-2.816-89.031111 26.993778-98.958222c29.809778-9.927111 66.076444 18.232889 80.952889 62.947556zM540.444444 704H85.333333a21.333333 21.333333 0 0 1 0-42.666667h455.111111a21.333333 21.333333 0 0 1 0 42.666667z"
+				fill="#E1E8ED" p-id="28518"></path>
+						</svg>棚子咯 </div>
+
+
+						<div class="left-des-item">
+
+
+
+							<div class="hitokoto-all"><br>
+								<div class="hitokoto-text"><span id="hitokoto_text">每一个人都应该明确自己的方向和位置</span>
+								</div>
+								<div class="hitokoto-from">-「&nbsp;<span id="from_text">棚子</span>&nbsp;」
+								</div>
+							</div>
+					</div>
+
+
+
+				</div>
+
+
+				
+				<div class="left-div left-tag">
+					<div class="left-tag-item">宅男
+					</div>
+					<div class="left-tag-item">科技
+					</div>
+					
+					<div class="left-tag-item">大二
+					</div>
+					<div class="left-tag-item">网页
+					</div>
+					<div class="left-tag-item">linux
+					</div>
+					<div class="left-tag-item">学者
+					</div>
+					<div class="left-tag-item">前端
+					</div>
+					
+					<div class="left-tag-item">程序开发
+					</div>
+
+				</div>
+				<div class="left-div left-time">
+					<ul id="line">
+						<li>
+							<div class="focus"></div>
+							<div>敬请期待
+							</div>
+							<div>2024.1</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>研究AI大模型
+							</div>
+							<div>2024.3.16</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>部署本地大模型
+							</div>
+							<div>2024.3.17</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>换了一个4-4服务器
+							</div>
+							<div>2024.3.15</div>
+						</li>						
+						<li>
+							<div class="focus"></div>
+							<div>浏览器收录上百条
+							</div>
+							<div>2024.2.18</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>部署的网站上百个
+							</div>
+							<div>2024.1.18</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>博客正式上线
+							</div>
+							<div>2023.6.1</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>新域名备案成功wpzllq.cn
+							</div>
+							<div>2023.3.1</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>第二次购买域名
+							</div>
+							<div>2023.2.15</div>
+						</li>
+						
+						<li>
+							<div class="focus"></div>
+							<div>使用宝塔部署了博客
+							</div>
+							<div>2023.2.5</div>
+						</li>
+						<li>
+							<div class="focus"></div>
+							<div>购买了第一个服务器</div>
+							<div>2023.1.27</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="left-div left-time">
+
+					<div class="col times">
+						<!--时间-->
+						<div class="time cards">
+							<div class="timeshow" id="time">
+								2000&nbsp;年&nbsp;0&nbsp;月&nbsp;00&nbsp;日&nbsp;<span
+									class="weekday">星期一</span><br><span class="time-text">00:00:00</span>
+							</div>				
+						</div>
+				
+					</div>
+
+				</div>
+
+				<!-- <div class="left-div left-time">
+
+					<div class="box-wrapper" >
+					<div class="box-left">
+						<div class="img-title">
+							<a href="https://github.com/xiaopao6" target="_blank"></a>
+						</div>
+		
+					</div>
+					<div class="box-right">
+						<div id="aplayer"></div>
+					</div>
+				</div>
+
+				</div> -->
+
+				
+					
+
+				
+
+			</div>		
+			<div class="pengzi-right">
+				<header>
+					<div class="index-logo" style="background-image: url(https://zy.wpzllq.cn/logo.png);">
+						<img style="position: absolute;top:-15%;left:-10%;width: 120%; aspect-ratio: 1/1;"
+							src="logokuang.png">
+					</div>
+					<div class="welcome">
+						Hello I' m <span class="gradientText">
+							PengZi </span>
+					</div>
+					<div class="description">🙋 <span class="purpleText"> About </span> Me
+					</div>
+					<div class="description">📝 We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility. <span class="purpleText textBackground">great</span>
+						is to <span class="purpleText textBackground">love</span> what you do. </div>
+
+					<div class="iconContainer">
+
+						<a class="iconItem" onclick="" target="_blank"  href="https://github.com/pengzilo">
+							<svg t="1704870335945" class="icon" viewBox="0 0 1024 1024" version="1.1"
+								xmlns="http://www.w3.org/2000/svg" p-id="2487">
+								<path
+									d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+									p-id="2488"></path>
+							</svg>
+							<div class="iconTip">Github</div>
+
+							<a class="iconItem" onclick="" target="_blank"  href="https://blog.csdn.net/qq_40835779?spm=1018.2226.3001.5343">
+								<svg t="1704870335945" class="icon" viewBox="0 0 1024 1024" version="1.1"
+									xmlns="http://www.w3.org/2000/svg" p-id="2487">
+									<path
+				d="M512 85.333333c235.648 0 426.666667 191.018667 426.666667 426.666667s-191.018667 426.666667-426.666667 426.666667S85.333333 747.648 85.333333 512 276.352 85.333333 512 85.333333z m158.293333 626.688l9.344-90.197333c-26.581333 7.936-84.138667 13.44-123.093333 13.44-112.085333 0-171.434667-39.424-162.773333-121.941333 9.642667-92.245333 94.293333-121.386667 193.877333-121.386667 45.653333 0 101.973333 7.296 126.037333 15.274667L725.333333 312.576C689.109333 303.872 650.581333 298.666667 584.96 298.666667 415.701333 298.666667 261.12 377.728 246.357333 518.229333 233.941333 636.16 338.346667 725.333333 531.669333 725.333333c67.242667 0 115.413333-5.376 138.624-13.354666z"
+				fill="#1A1A1A" p-id="20759"></path>
+								</svg>
+								<div class="iconTip">CSDN</div>
+
+							
+
+
+						</a><a class="iconItem" onclick="" href="mailto:2330359217@qq">
+							<svg t="1704870588438" class="icon" viewBox="0 0 1024 1024" version="1.1"
+								xmlns="http://www.w3.org/2000/svg" p-id="3174">
+								<path
+									d="M926.47619 355.644952V780.190476a73.142857 73.142857 0 0 1-73.142857 73.142857H170.666667a73.142857 73.142857 0 0 1-73.142857-73.142857V355.644952l304.103619 257.828572a170.666667 170.666667 0 0 0 220.745142 0L926.47619 355.644952zM853.333333 170.666667a74.044952 74.044952 0 0 1 26.087619 4.778666 72.704 72.704 0 0 1 30.622477 22.186667 73.508571 73.508571 0 0 1 10.678857 17.67619c3.169524 7.509333 5.12 15.652571 5.607619 24.210286L926.47619 243.809524v24.380952L559.469714 581.241905a73.142857 73.142857 0 0 1-91.306666 2.901333l-3.632762-2.925714L97.52381 268.190476v-24.380952a72.899048 72.899048 0 0 1 40.155428-65.292191A72.97219 72.97219 0 0 1 170.666667 170.666667h682.666666z"
+									p-id="3175"></path>
+							</svg>
+							<div class="iconTip">Mail</div>
+
+
+						</a><a class="iconItem" onclick="pop('https://zy.wpzllq.cn/wx.jpg')" href="javascript:void(0)">
+							<svg t="1705322844467" class="icon" viewBox="0 0 1024 1024" version="1.1"
+								xmlns="http://www.w3.org/2000/svg" p-id="2925">
+								<path
+									d="M816.551274 248.167103C697.80273 131.500986 553.294498 97.66946 394.437467 140.52757 114.716718 215.994356 28.163433 506.98887 169.479973 696.646394c6.853082 9.198499 8.147564 26.164916 5.545296 38.09769-7.601118 34.868135-18.714224 68.958558-28.000728 103.474676-4.965082 18.455327-7.90504 37.21253 8.632611 52.019771 17.777899 15.921621 36.82572 12.654204 56.258305 2.777253 31.879058-16.200984 64.335261-31.314193 95.763041-48.336892 20.469194-11.086499 38.847773-11.658528 61.942771-5.240351 46.063105 12.799514 93.717452 19.872606 117.992321 24.74866 144.317896-2.603291 249.610988-41.736567 333.958024-129.489166C955.8826 594.966597 954.903296 384.090818 816.551274 248.167103zM763.498988 681.878039C658.864906 785.728268 531.49603 810.562886 393.782551 764.371868c-45.408189-15.229866-82.686211-19.207457-122.088616 7.493671-3.576455 2.423189-8.448416 2.934842-26.51284 8.852622 36.271088-62.917982 9.41851-102.273315-21.181415-146.894581-67.886133-98.989525-54.03773-226.624461 26.78197-318.740438 132.026966-150.480246 390.603139-150.382009 522.634198 0.196475C869.144096 424.455131 867.098507 579.054185 763.498988 681.878039z"
+									p-id="2926"></path>
+								<path
+									d="M640.32976 377.432165c-26.245757-0.961908-47.457872 18.594497-48.955992 45.13906-1.532913 27.1565 16.636912 48.230468 43.304272 50.227961 26.571169 1.989307 48.850591-16.263405 51.568493-42.247196C689.112814 403.14478 667.75846 378.439098 640.32976 377.432165z"
+									p-id="2927"></path>
+								<path
+									d="M385.221572 377.38714c-27.757181 0.205685-48.88743 23.684422-46.821375 52.023864 1.940189 26.610054 23.154349 44.910862 50.212612 43.317575 26.505677-1.560542 46.149063-22.886243 45.152363-49.02046C432.798147 398.345474 410.636405 377.198851 385.221572 377.38714z"
+									p-id="2928"></path>
+							</svg>
+							<div class="iconTip">wechat</div>
+
+						</a><a class="iconItem"  href="tencent://message/?uin=2330359217">
+							<svg t="1705247464964" class="icon" viewBox="0 0 1024 1024" version="1.1"
+								xmlns="http://www.w3.org/2000/svg" p-id="4987">
+								<path
+				d="M943.0016 579.072a1373.696 1373.696 0 0 0-30.8224-82.9952l-30.5152-72.4992 0.0512-8.6528C881.7664 166.7072 733.184 0 512 0S142.2336 166.7072 142.2336 414.8736l0.0512 8.6016-29.9008 71.0656a1355.776 1355.776 0 0 0-31.488 84.6336c-36.5568 111.9232-39.3216 193.3824-8.0896 242.0224 16.896 26.3168 43.3664 43.8272 73.216 48.7424a118.6816 118.6816 0 0 0 13.1072 92.0576c35.4304 56.9856 102.5536 61.2352 200.9088 61.2352 56.7808 0 117.1968-2.9184 151.9104-5.9392 34.7136 3.072 95.0784 5.9392 151.9104 5.9392 98.3552 0 165.4784-4.2496 200.8576-61.1328 15.9232-25.6 21.8112-59.4944 13.1584-92.16a107.776 107.776 0 0 0 73.216-48.7424c31.1808-48.64 28.4672-130.0992-8.0896-242.1248z m-81.7152 189.7984l-0.768 0.0512c-19.8656 0-73.9328-83.6608-73.9328-83.6608 0 49.664-26.88 121.344-84.992 168.1408 21.76 6.4 48.4352 16.1792 65.536 28.2624 15.4112 10.8032 13.4656 21.8112 10.7008 26.3168-5.9904 9.6256-56.9856 12.8-113.92 12.8-58.4192 0-123.136-3.328-151.9104-6.4-28.7744 3.1232-93.4912 6.4-151.9104 6.4-56.9344 0-107.8784-3.1744-113.92-12.8-2.7648-4.4544-4.7104-15.5136 10.7008-26.3168 17.1008-12.032 43.776-21.8624 65.536-28.2624-58.112-46.848-84.992-118.4768-84.992-168.192 0 0-54.1184 83.6608-73.9328 83.6608l-0.768-0.0512c-8.96-1.024-20.6848-47.0016 15.5648-158.0544 7.5776-23.296 17.9712-50.432 28.4672-76.544l38.3488-91.136c0-1.0752-0.512-19.0464-0.512-28.2624C244.6336 259.0208 321.9456 102.4 512 102.4c190.0544 0 267.3664 156.6208 267.3664 312.4736 0 9.2672-0.4608 27.1872-0.512 28.2624l38.4 91.136c10.496 26.112 20.8896 53.248 28.4672 76.544 36.2496 111.0528 24.5248 157.0304 15.5648 158.0544z"
+				fill="#2c2c2c" p-id="14505"></path>
+							</svg>
+							<div class="iconTip">QQ</div>
+
+							
+						</a> <a class="switch" href="javascript:void(0)">
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="myonoffswitch" checked="">
+								<label class="onoffswitch-label" for="myonoffswitch">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+						</a>
+					</div>
+
+					<div class="tanChiShe">
+						<div  id="tanChiShe" src="" alt="">
+						<img id="tanChiShe" src="https://zy.wpzllq.cn/css/snake-Light.svg" alt="">
+					</div>
+				</header>
+				<content>
+					<div class="title"><svg t="1705257422086" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="1891">
+							<path
+								d="M629.333333 202.666667v213.333333h277.333334v448h-512v-213.333333h-277.333334v-448h512z m213.333334 277.333333h-213.333334v170.666667h-170.666666v149.333333h384v-320z m-277.333334-213.333333h-384v320h213.333334v-170.666667h170.666666v-149.333333z m0 213.333333h-106.666666v106.666667h106.666666v-106.666667z"
+								p-id="1892"></path>
+						</svg>site </div>
+
+					<div class="projectList"><a class="projectItem a" target="_blank" href="https://wpzllq.cn/">
+							<div class="projectItemLeft">
+								<h1>博客</h1>
+								<p>记录一起学习与分享</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="i1.png" alt="">
+							</div>
+
+						</a><a class="projectItem a" target="_blank" href="https://dhl.wpzllq.cn/">
+							<div class="projectItemLeft">
+								<h1>导航站点</h1>
+								<p>收集超多实用网站，方便学习快捷</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="i2.png" alt="">
+							</div>
+
+						</a><a class="projectItem a" target="_blank" href="https://pyq1.wpzllq.cn/">
+							<div class="projectItemLeft">
+								<h1>朋友圈</h1>
+								<p>发现有趣的东西，分享生活点滴</p></p>
+							</div>
+							<div class="projectItemRight">
+								<img src="i3.png" alt="">
+							</div>
+
+						</a><a class="projectItem a" target="_blank" href="https://nishang.site">
+							<div class="projectItemLeft">
+								<h1>GPT</h1>
+								<p>用AI赋能未来！！！     让创意充满无限可能！！！</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="ai.jpg" alt="">
+							</div>
+
+						</a><a class="projectItem a" target="_blank" href="https://sp.wpzllq.cn">
+							<div class="projectItemLeft">
+								<h1>棚子影院</h1>
+								<p>本站提供的最新电影和电视剧资源均系收集于各大视频网站</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="影视.png" alt="">
+							</div>
+
+						</a><a class="projectItem a" target="_blank" href="https://nishang.site">
+							<div class="projectItemLeft">
+								<h1>今日热搜</h1>
+								<p>对接了各个大平台的热搜，随时随地发现热点</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="i5.png" alt="">
+							</div>
+							
+						</a></div>
+
+
+
+
+					<div class="title"><svg t="1705257422086" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="1891">
+							<path
+								d="M629.333333 202.666667v213.333333h277.333334v448h-512v-213.333333h-277.333334v-448h512z m213.333334 277.333333h-213.333334v170.666667h-170.666666v149.333333h384v-320z m-277.333334-213.333333h-384v320h213.333334v-170.666667h170.666666v-149.333333z m0 213.333333h-106.666666v106.666667h106.666666v-106.666667z"
+								p-id="1892"></path>
+						</svg>project </div>
+					<div class="projectList"><a class="projectItem b" target="_blank"
+							href="https://wpzllq.cn/lcvc/index.html">
+							<div class="projectItemLeft">
+								<h1>生鲜商城</h1>
+								<p>大一初步制作</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="https://zy.wpzllq.cn/商城.png" alt="">
+							</div>
+
+						</a><a class="projectItem b" target="_blank" href="https://wpzllq.cn/index.php/2023/12/30/%e4%ba%94%e6%8c%87%e6%a3%8b/">
+							<div class="projectItemLeft">
+								<h1>五指棋</h1>
+								<p>用JavaScript弄的小游戏</p>
+							</div>
+							<div class="projectItemRight">
+								<img src="五指棋.png" alt="">
+							</div>
+
+						</a></div>
+					<div id="skill" class="title">
+						<svg t="1705257823317" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="7833">
+							<path
+								d="M395.765333 586.570667h-171.733333c-22.421333 0-37.888-22.442667-29.909333-43.381334L364.768 95.274667A32 32 0 0 1 394.666667 74.666667h287.957333c22.72 0 38.208 23.018667 29.632 44.064l-99.36 243.882666h187.050667c27.509333 0 42.186667 32.426667 24.042666 53.098667l-458.602666 522.56c-22.293333 25.408-63.626667 3.392-54.976-29.28l85.354666-322.421333zM416.714667 138.666667L270.453333 522.581333h166.869334a32 32 0 0 1 30.933333 40.181334l-61.130667 230.954666 322.176-367.114666H565.312c-22.72 0-38.208-23.018667-29.632-44.064l99.36-243.882667H416.714667z"
+								p-id="7834"></path>
+						</svg>
+						skills
+					</div>
+					<div id="skill" class="skill">
+						<img id="skillPc" src="https://camo.githubusercontent.com/6f4a1a35efe24d5e34bd34f0488b3b14183f167ca195e5c4147ffc5a4fda6a61/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f73756e3032323553554e2f73756e3032323553554e2f6173736574732f696d616765732f6d616e2e706e67" 
+						style="width:100px";height="100px" alt="" srcset="">
+						
+						<img id="skillPc" src="skillPc.svg" alt="" srcset="">
+						<img id="skillWap" src="/skillWap.svg" alt="" srcset="">
+					</div>
+				</content>
+			</div>
+		</div>
+		<footer>
+			pengzilo © 2024 |
+			<a href="https://beian.miit.gov.cn/">
+				桂ICP备2023015156号-2 </a>
+		</footer>
+		<div class="tc">
+			<div onclick="" class="tc-main">
+				<img class="tc-img" src="" alt="" srcset="">
+			</div>
+
+		</div>
+
+		<script src="script.js"> </script>
+		<!-- <script charset="UTF-8" id="LA_COLLECT" src="https://pengzi.cc/sdk.51.la/js-sdk-pro.min.js"></script> -->
+		<script>
+			LA.init({
+				id: "KFqltKSkJgQTGD9l",
+				ck: "KFqltKSkJgQTGD9l"
+			})
+		</script>
+
+		<div title="长按可拖动到任何位置" id="chat_config_gptid"
+			style="background-image: url(&quot;chrome-extension://mgdekoneakpagflcnpfkobbggjbleech/icons/icon.png&quot;); background-size: 100% 100%; border-radius: 8px; cursor: pointer; width: 64px; height: 64px; z-index: 2147483647; position: fixed; top: 419px; right: 0px; left: 2060px;">
+		</div>
+		<script src="chrome-extension://nhiheekdcnmfbapkmpbhmplfddenhjic/sm.bundle.js" data-pname="supercopy-v3"
+			data-asset-path="https://spc3.s3.ap-east-1.amazonaws.com"></script>
+			
+	</body>
+</html>
